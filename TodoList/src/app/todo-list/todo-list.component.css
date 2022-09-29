@@ -1,0 +1,27 @@
+h3{
+  margin-top: 20px;
+
+}
+
+p{
+  color: aliceblue;
+}
+
+.div1 {
+  background-color: rgb(0, 0, 0);
+  padding: 20px;
+  border-style: 2px solid rgb(255, 255, 255);
+  border-radius: 40px;
+  margin: 20px;
+  width: 50%;
+}
+
+.para{
+  color: black;
+}
+
+.btn-danger{
+  float: right;
+border-radius: 50px;
+
+}

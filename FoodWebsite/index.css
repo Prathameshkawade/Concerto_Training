@@ -1,0 +1,49 @@
+#main {
+    margin: 100px;
+}
+
+
+h3 {
+    font-size: 20px;
+    text-align: center;
+    margin: 20px;
+    padding: 10px;
+    color: white;
+}
+
+div.div1 {
+
+    margin: auto;
+}
+
+img{
+    border-radius: 50%;
+    border-style: solid;
+    border-color: white;
+}
+
+tr{
+    margin: 20px;
+}
+th{
+    margin: 20px;
+}
+
+#span0{
+    margin: 10px;
+}
+td{
+    vertical-align: middle;
+    text-align: center;
+    color: white;
+}
+
+body{
+    background-color: black;
+}
+
+hr{
+    color: white;
+}
+
+   

@@ -1,0 +1,16 @@
+.form-control{
+  margin-top: 20px;
+  height: 100px;
+  width: 50%;
+  text-align: center;
+  border-radius: 20px;
+}
+h3{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-top: 50px;
+  font-size: 25px;
+}
+
+.btn-success{
+  margin-top: 20px;
+}

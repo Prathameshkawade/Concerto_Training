@@ -1,0 +1,12 @@
+{
+  "todos": [
+    {
+      "todo": "Dance",
+      "id": 1
+    },
+    {
+      "todo": "Drink Water",
+      "id": 2
+    }
+  ]
+}

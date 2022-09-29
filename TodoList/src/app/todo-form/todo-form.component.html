@@ -1,0 +1,9 @@
+<div class="container">
+<h3>Add Todos Here</h3>
+<form #todoform="ngForm" (submit)="savetodo(todoform.value);todoform.resetForm()">
+<input type="text" class="form-control" placeholder=" Whats On Your Mind" minlength="0" #todo="ngModel" ngModel name="todo" aria-label="todo" required value={{todo}} >
+<button type="submit" class="btn btn-success">Submit</button>
+</form>
+</div>
+<!-- <app-todo-list></app-todo-list> -->
+

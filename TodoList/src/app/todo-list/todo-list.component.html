@@ -1,0 +1,18 @@
+<div class="container">
+<h3>Your Todos</h3>
+
+<div *ngFor="let emp of todolist" class="div1">
+  <app-todo [todos]="emp">
+    <button (click)="delete(emp)" class="btn btn-danger" >Delete</button>
+  </app-todo>
+</div>
+
+<div class="container" *ngIf="todolist.length > 0">
+  <p class="para">{{todolist.length}} todos Remaining!!!</p>
+</div>
+
+  <div class="container" *ngIf="todolist.length <= 0">
+    <p class="para">No todos to show!!!</p>
+  </div>
+
+</div>
